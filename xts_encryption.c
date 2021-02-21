@@ -1,8 +1,6 @@
 #include "xts_encryption.h"
 
 int KEY_SIZE;
-int OPERATION_MODE;
-
 
 void auth_handleErrors(void) {
       	// ERR_print_errors_fp(stderr);
