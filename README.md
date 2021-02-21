@@ -1,4 +1,4 @@
-# AES_XTS_OpenSSL
+# AES_XTS_OpenSSL_example
 
 Example for XTS-AES-256 with a block of data of 4096 bytes.
 Based on https://gist.github.com/ants/862cb941057bdb8db00c72711d2b826c and
