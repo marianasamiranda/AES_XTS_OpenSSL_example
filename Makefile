@@ -1,5 +1,5 @@
 program: example.o xts_encryption.o
-	gcc -lssl -lcrypto -o program example.o xts_encryption.o -L/usr/local/opt/openssl/lib
+	gcc -lssl -lcrypto -L/usr/local/opt/openssl/lib -o program example.o xts_encryption.o 
 
 example.o: example.c xts_encryption.h
 	gcc -c example.c  -O2 -I/usr/local/opt/openssl/include  
