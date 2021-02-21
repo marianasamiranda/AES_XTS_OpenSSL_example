@@ -20,19 +20,7 @@ const EVP_CIPHER* auth_get_cipher() {
 
 
 int xts_init(int key_size) {
-    // if (key == NULL) {
-    //     // ERROR_MSG("(symmetric.c) - init's key argument is NULL");
-    //     return 1;
-    // }
-
-    // ERR_load_crypto_strings();
-    // OpenSSL_add_all_algorithms();
-    // OPENSSL_config(NULL);
-
     KEY_SIZE = key_size;
-    // KEY = (unsigned char*) key;
-    // DEBUG_MSG("auth_encryption_init: operation mode = %d\n", OPERATION_MODE);
-
     return 0;
 }
 
