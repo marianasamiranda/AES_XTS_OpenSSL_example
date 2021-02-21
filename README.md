@@ -12,7 +12,7 @@ the other is used to encrypt what is known as a tweak."
 The OpenSSL library for AES-XTS requires key of double-length. 
 In particular, XTS-AES-128 (EVP_aes_128_xts) takes input of a 256-bit (32 bytes) key
 to achieve AES 128-bit security, and XTS-AES-256 (EVP_aes_256_xts) takes input of a
-512-bit (64 bytes) key to achieve AES 256-bit security. So, the key 
+512-bit (64 bytes) key to achieve AES 256-bit security. For example, the key 
 being 512 bits, internally split into two 256 bit keys for each of the AES 256 ciphers.
 
 --------
