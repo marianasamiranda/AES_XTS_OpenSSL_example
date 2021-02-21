@@ -60,10 +60,10 @@ int main (void)
    * real application? :-)
    */
 
-  /* A 256 bit key */
+  /* A 512 bit key */
   unsigned char *key = (unsigned char *)"0123456789012345678901234567890123456789012345678901234567890123";
 
-  /* A 128 bit IV */
+  /* A 128 bit tweak */
   unsigned char *tweak = (unsigned char *)"0123456789012345";
 
   /* Message to be encrypted */
