@@ -6,11 +6,10 @@ https://wiki.openssl.org/index.php/EVP_Symmetric_Encryption_and_Decryption
 
 --------
 
-From https://www.kingston.com/en/solutions/data-security/xts-encryption:
-"XTS uses two AES keys. One key is used to perform the AES block encryption;
+From https://www.kingston.com/en/solutions/data-security/xts-encryption: "XTS uses two AES keys. One key is used to perform the AES block encryption;
 the other is used to encrypt what is known as a tweak."
 
-The OpenSSL library for AES-XTS, requires key of double-length. 
+The OpenSSL library for AES-XTS requires key of double-length. 
 In particular, XTS-AES-128 (EVP_aes_128_xts) takes input of a 256-bit (32 bytes) key
 to achieve AES 128-bit security, and XTS-AES-256 (EVP_aes_256_xts) takes input of a
 512-bit (64 bytes) key to achieve AES 256-bit security. So, the key 
@@ -28,3 +27,5 @@ called the tweak value. These tweak values start from an
 arbitrary integer and are assigned consecutively. The tweak
 value must be converted to a little-endian byte array, where
 encryption of the tweak is done using the AES algorithm."
+
+
