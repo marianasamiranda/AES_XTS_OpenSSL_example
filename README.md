@@ -28,4 +28,6 @@ arbitrary integer and are assigned consecutively. The tweak
 value must be converted to a little-endian byte array, where
 encryption of the tweak is done using the AES algorithm."
 
-
+-------
+## Instalation
+The only lib required to run this is OpenSSL. This was lastly tested with the version 1.1.1j.
