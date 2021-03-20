@@ -1,4 +1,4 @@
-#include <aesxts/xts.hpp>
+#include <aesxts/xts/xts.hpp>
 
 #define KEY_SIZE 64 
 #define TWEAK_SIZE  16
