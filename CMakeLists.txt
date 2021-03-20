@@ -50,13 +50,13 @@ target_link_libraries(aesxts OpenSSL::Crypto)
 target_sources(
         aesxts
         PUBLIC
-        ${PROJECT_SOURCE_DIR}/include/aesxts/xts.hpp
+        ${PROJECT_SOURCE_DIR}/include/aesxts/xts/xts.hpp
 )
 
 target_sources(
         aesxts
         PRIVATE
-        src/xts.cpp
+        src/xts/xts.cpp
 )
 
 if (AESXTS_BUILD_TESTS)
