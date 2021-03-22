@@ -1,4 +1,4 @@
-#include "xts_encryption.h"
+#include <aesxts/xts/xts.hpp>
 
 int KEY_SIZE;
 

@@ -1,11 +1,10 @@
-#ifndef __XTS_ENCRYPTION_H__
-#define __XTS_ENCRYPTION_H__
+#ifndef XTS_H
+#define XTS_H
 
 #include <openssl/conf.h>
 #include <openssl/evp.h>
 #include <openssl/err.h>
 #include <string.h>
-
 
 int xts_init(int key_size);
 
